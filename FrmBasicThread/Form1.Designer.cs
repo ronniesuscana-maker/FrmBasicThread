@@ -37,7 +37,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(231, 113);
+            this.label1.Location = new System.Drawing.Point(222, 113);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(369, 37);
             this.label1.TabIndex = 0;
@@ -47,7 +47,7 @@
             // 
             this.Run.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Run.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Run.Location = new System.Drawing.Point(356, 282);
+            this.Run.Location = new System.Drawing.Point(336, 285);
             this.Run.Name = "Run";
             this.Run.Size = new System.Drawing.Size(119, 47);
             this.Run.TabIndex = 1;

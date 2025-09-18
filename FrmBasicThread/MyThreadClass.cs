@@ -9,6 +9,15 @@ namespace FrmBasicThread
 {
     internal class MyThreadClass
     {
-        
+        public static void Thread1()
+        {
+        }
+        class program
+        {
+            static void Main(string[] args)
+            {
+                MyThreadClass.Thread1();
+          }
+      }
     }
 }
