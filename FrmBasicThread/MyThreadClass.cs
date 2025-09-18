@@ -11,13 +11,14 @@ namespace FrmBasicThread
     {
         public static void Thread1()
         {
-        }
-        class program
-        {
-            static void Main(string[] args)
+            for (var i = 0; i < 6; i++)
             {
-                MyThreadClass.Thread1();
-          }
-      }
+                Thread thread = Thread.CurrentThread;
+                Console.WriteLine("Name of Thread: " + thread.Name + " = " + i);
+                Thread.Sleep(1500);
+            }
+
+        }
+
     }
 }
